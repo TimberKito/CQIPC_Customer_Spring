@@ -1,0 +1,28 @@
+2021-06-12 01:00:37.114 debug 2684 --- [restartedMain] com.timberkito.shop.ShopApplication      : Starting ShopApplication using Java 1.8.0_291 on DESKTOP-L7BJPRG with PID 2684 (C:\Users\Timber\Desktop\JavaEE_Shopping\cqipc_springboot_timber\target\classes started by Timber in C:\Users\Timber\Desktop\JavaEE_Shopping\cqipc_springboot_timber)
+2021-06-12 01:00:37.116 debug 2684 --- [restartedMain] com.timberkito.shop.ShopApplication      : The following profiles are active: dev
+2021-06-12 01:00:37.166 debug 2684 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-06-12 01:00:37.167 debug 2684 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-06-12 01:00:38.273 debug 2684 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8686 (http)
+2021-06-12 01:00:38.282 debug 2684 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-06-12 01:00:38.283 debug 2684 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.46]
+2021-06-12 01:00:38.367 debug 2684 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-06-12 01:00:38.367 debug 2684 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1200 ms
+2021-06-12 01:00:38.670 debug 2684 --- [restartedMain] ion$DefaultTemplateResolverConfiguration : Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2021-06-12 01:00:38.818 debug 2684 --- [restartedMain] o.s.b.a.f.FreeMarkerAutoConfiguration    : Cannot find template location(s): [classpath:/templates/] (please add some templates, check your FreeMarker configuration, or set spring.freemarker.checkTemplateLocation=false)
+2021-06-12 01:00:38.845 debug 2684 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2021-06-12 01:00:38.888 debug 2684 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8686 (http) with context path ''
+2021-06-12 01:00:38.899 debug 2684 --- [restartedMain] com.timberkito.shop.ShopApplication      : Started ShopApplication in 2.361 seconds (JVM running for 3.323)
+2021-06-12 01:01:59.506 debug 19264 --- [restartedMain] com.timberkito.shop.ShopApplication      : Starting ShopApplication using Java 1.8.0_291 on DESKTOP-L7BJPRG with PID 19264 (C:\Users\Timber\Desktop\JavaEE_Shopping\cqipc_springboot_timber\target\classes started by Timber in C:\Users\Timber\Desktop\JavaEE_Shopping\cqipc_springboot_timber)
+2021-06-12 01:01:59.507 debug 19264 --- [restartedMain] com.timberkito.shop.ShopApplication      : The following profiles are active: dev
+2021-06-12 01:01:59.568 debug 19264 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-06-12 01:01:59.568 debug 19264 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-06-12 01:02:00.713 debug 19264 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8686 (http)
+2021-06-12 01:02:00.724 debug 19264 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-06-12 01:02:00.724 debug 19264 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.46]
+2021-06-12 01:02:00.838 debug 19264 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-06-12 01:02:00.839 debug 19264 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1270 ms
+2021-06-12 01:02:01.180 debug 19264 --- [restartedMain] ion$DefaultTemplateResolverConfiguration : Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2021-06-12 01:02:01.284 debug 19264 --- [restartedMain] o.s.b.a.f.FreeMarkerAutoConfiguration    : Cannot find template location(s): [classpath:/templates/] (please add some templates, check your FreeMarker configuration, or set spring.freemarker.checkTemplateLocation=false)
+2021-06-12 01:02:01.312 debug 19264 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2021-06-12 01:02:01.346 debug 19264 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8686 (http) with context path ''
+2021-06-12 01:02:01.360 debug 19264 --- [restartedMain] com.timberkito.shop.ShopApplication      : Started ShopApplication in 2.551 seconds (JVM running for 3.519)

@@ -1,0 +1,11 @@
+## 测试环境
+server:
+  port: 8989
+
+logging:
+  pattern:
+    console: "%d{yyyy-MM-dd HH:mm:ss} [%thread] %-5level %logger- %msg%n"
+    level: debug
+  file:
+    path: "."
+    name: "springboot.log"
