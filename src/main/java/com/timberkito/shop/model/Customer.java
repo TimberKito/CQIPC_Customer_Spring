@@ -1,7 +1,5 @@
 package com.timberkito.shop.model;
 
-import org.springframework.stereotype.Component;
-
 public class Customer{
     private Integer id;
 
@@ -11,27 +9,27 @@ public class Customer{
 
     private String phone;
 
-    public Integer getId() {
+    public Integer getId(){
         return id;
     }
 
-    public void setId(Integer id) {
+    public void setId(Integer id){
         this.id = id;
     }
 
-    public String getUsername() {
+    public String getUsername(){
         return username;
     }
 
-    public void setUsername(String username) {
+    public void setUsername(String username){
         this.username = username == null ? null : username.trim();
     }
 
-    public String getJobs() {
+    public String getJobs(){
         return jobs;
     }
 
-    public void setJobs(String jobs) {
+    public void setJobs(String jobs){
         this.jobs = jobs == null ? null : jobs.trim();
     }
 

@@ -10,7 +10,6 @@ import org.springframework.web.bind.annotation.RestController;
 
 import java.util.List;
 
-//@Controller
 @CrossOrigin
 @RestController // 此类所有方法返回JSON
 public class CustomerController{
@@ -18,17 +17,31 @@ public class CustomerController{
     @Autowired
     private CustomerService customerService;
 
+    /**
+     * 查询客户列表
+     * @return
+     */
     @RequestMapping(value = "/api/customer/selectall", method = RequestMethod.GET)
     public List selectAll(){
         return customerService.selectAllCustomers();
     }
 
+    /**
+     * 通过ID查询单个客户信息
+     * @param id
+     * @return
+     */
     @RequestMapping(value = "/api/customer/info", method = RequestMethod.GET)
     public Object customerInfo(Integer id){
         Customer customer = customerService.queryCustomerById(id);
         return customer;
     }
 
+    /**
+     * 添加客户
+     * @param customer
+     * @return
+     */
     @RequestMapping(value = "/api/customer/add", method = RequestMethod.POST)
     public int add(Customer customer){
         int ret = customerService.insertSelective(customer);
@@ -39,7 +52,12 @@ public class CustomerController{
         }
     }
 
-    @RequestMapping(value = "/api/customer/delete", method = RequestMethod.POST)
+    /**
+     * 通过ID删除客户
+     * @param id
+     * @return
+     */
+    @RequestMapping(value = "/api/customer/delete", method = RequestMethod.DELETE)
     public int deleteByPrimaryKey(Integer id){
         int ret = customerService.deleteByPrimaryKey(id);
         if (ret == 1) {
@@ -49,7 +67,12 @@ public class CustomerController{
         }
     }
 
-    @RequestMapping(value = "/api/customer/update", method = RequestMethod.POST)
+    /**
+     * 修改客户信息
+     * @param customer
+     * @return
+     */
+    @RequestMapping(value = "/api/customer/update", method = RequestMethod.PUT)
     public int update(Customer customer){
         int ret = customerService.updateByPrimaryKeySelective(customer);
         if (ret == 1) {

@@ -10,10 +10,10 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 @MapperScan(basePackages = "com.timberkito.shop.mapper")
 public class ShopApplication{
 
-//    private static Logger logger = LoggerFactory.getLogger(ShopApplication.class);
+    private static Logger logger = LoggerFactory.getLogger(ShopApplication.class);
 
     public static void main(String[] args){
-//        logger.info("SpringBoot 应用开始启动 ... ");
+        logger.info("客户表后端应用开始启动 ... ");
         SpringApplication.run(ShopApplication.class, args);
     }
 

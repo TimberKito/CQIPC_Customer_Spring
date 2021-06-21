@@ -1,44 +1,3 @@
-# 实现对客户表做增删改查后端部分
-
-## 1.1项目信息
-
-> 作者：Timber
->
-> 指导教师：lina
->
-> 操作系统：Windows 10
->
-> 开发工具：IntelliJ IDEA 2021.1 x64
-
-## 1.2项目需求
-
-### 1.2.1使用MySQL数据库，创建客户表
-
-```sql
-create table t_customer(
-
-id int primary key auto_increment,
-
-username varchar(200),
-
-jobs varchar(200),
-
-phone varchar(200));
-```
-
-### 1.2.2使用MySQL中insert语句新增3~5条客户数据到t_customer表中并完成如下功能:
-
-- 查询所有的客户信息，以列表方式进行显示。
-- 新增客户信息。
-- 根据客户Id修改客户username,jobs,phone.
-- 根据客户Id删除客户
-
-## 1.3项目结构
-
-![](https://timber.oss-cn-chengdu.aliyuncs.com/img/utool_up/1624263344480.png)
-
-
-
 # 实现对客户表做增删改查后端API接口文档
 
 ## 1.1. API V1 接口说明
@@ -187,7 +146,7 @@ phone varchar(200));
 
 - 响应数据
 
-```txt
+```json
 200 // 修改成功
 400 // 修改失败
 ```
@@ -204,7 +163,7 @@ phone varchar(200));
 
 - 响应数据
 
-```txt
+```json
 200 // 删除成功
 400 // 删除失败
 ```
